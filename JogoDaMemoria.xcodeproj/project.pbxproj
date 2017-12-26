@@ -54,14 +54,22 @@
 		FDCE71841FF27CD100D45025 /* JogoDaMemoria */ = {
 			isa = PBXGroup;
 			children = (
-				FDCE71851FF27CD100D45025 /* AppDelegate.swift */,
 				FDCE71871FF27CD100D45025 /* ViewController.swift */,
 				FDCE71891FF27CD100D45025 /* Main.storyboard */,
-				FDCE718C1FF27CD100D45025 /* Assets.xcassets */,
-				FDCE718E1FF27CD100D45025 /* LaunchScreen.storyboard */,
+				FDCE71971FF27F2500D45025 /* Supporting Files */,
 				FDCE71911FF27CD100D45025 /* Info.plist */,
 			);
 			path = JogoDaMemoria;
+			sourceTree = "<group>";
+		};
+		FDCE71971FF27F2500D45025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCE71851FF27CD100D45025 /* AppDelegate.swift */,
+				FDCE718C1FF27CD100D45025 /* Assets.xcassets */,
+				FDCE718E1FF27CD100D45025 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
