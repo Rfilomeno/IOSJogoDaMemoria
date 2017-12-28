@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Concentration {
     
@@ -43,6 +44,11 @@ class Concentration {
          }
         
         //TODO: Shuffle the cards
-        
+        var cardsShuffle = [Card]()
+        for _ in 0..<cards.count{
+         cardsShuffle.append(cards.remove(at: Int(arc4random_uniform(UInt32(cards.count)))))
+        }
+        cards = cardsShuffle
     }
+    
 }
